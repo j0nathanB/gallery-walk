@@ -1,7 +1,7 @@
 import "./header.css";
 import React from "react";
 import logo from "./walk.jpg";
-import upload from "../upload.png"
+import upload from "../../assets/upload.png"
 
 
 class Header extends React.Component{
