@@ -1,11 +1,11 @@
 .Post {
   border-radius: 3px;
   border: 1px solid #e6e6e6;
-  background-color: #fff;
   margin-bottom: 60px;
   margin-left : 20%;
   margin-right: 20%;
 }
+
 .Post-user {
   display: flex;
   padding: 16px;
@@ -43,4 +43,30 @@
   display: none;
   visibility: hidden;
   opacity: 0;
+}
+
+.pics_container {
+  width: 933px;
+  margin: auto;
+}
+
+.grid {
+  padding-top: 100px;
+  display: grid;
+  grid-auto-rows: 300px;
+  grid-template-columns: 300px 300px 300px;
+  /* space between columns for demo */
+  grid-gap: 20px;
+}
+
+/* just styles for demo */
+.grid_item {
+  width: 293px;
+  height: 293px;
+  background-color: aquamarine;
+  overflow: hidden;
+}
+
+.grid_pic {
+  object-fit: fill;
 }

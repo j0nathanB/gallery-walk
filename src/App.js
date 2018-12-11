@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/header/header';
+import Body from './components/body/post'
 
 class App extends Component {
   render() {
     return (
-      <Header />
+      <div className="main">
+        <Header />
+        <Body />
+      </div>
     );
   }
 }

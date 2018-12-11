@@ -9,6 +9,7 @@
   transition: height 0.2s ease-in-out;
   height: 77px;
 }
+
 .Nav-menus {
   display: flex;
   flex-direction: row;
@@ -16,13 +17,14 @@
   height: 40px;
   width: 70%;
   margin: 0 auto;
-  padding: 26px 40px;
+  padding: 20px 40px; 
 }
 
 .Nav-brand {
   display: flex;
   justify-content: space-between;
-  height: 40px;
+  justify-items: baseline;
+  height: 35px;
 }
 
 .Nav-brand-logo {
@@ -36,6 +38,6 @@
 }
 
 .Nav-upload {
-  filter: opacity(.5);
-  height:40px
+  /* filter: opacity(.5); */
+  height: 27px
 }
