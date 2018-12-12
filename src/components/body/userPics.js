@@ -13,7 +13,7 @@ class UserPics extends Component {
       pics: '../../assets/dummy0/',
       pictures: ['0.jpg', '1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg'],
       showModal: false,
-      pic: '3.jpg'
+      pic: '0.jpg'
     }
 
     //this.setModalState = this.setModalState.bind(this);
