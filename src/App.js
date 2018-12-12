@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/header/header';
-import Body from './components/body/post'
+import UserPics from './components/body/userPics'
 
 class App extends Component {
   render() {
     return (
       <div className="main">
         <Header />
-        <Body />
+        <UserPics />
       </div>
     );
   }
