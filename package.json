@@ -21,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+
+    "dev": "concurrently --kill-others-on-fail \"nodemon server/server.js\" \"npm run start\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,5 +33,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.8"
+  }
 }
